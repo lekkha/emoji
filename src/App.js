@@ -42,6 +42,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>there is more to an emoji</h1>
+      <h3>type in you emoji or select an icon</h3>
       <input onChange={emojiinputHandler} />
 
       <h3>meaning: {meaning} </h3>
